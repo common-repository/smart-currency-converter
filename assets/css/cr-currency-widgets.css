@@ -1,0 +1,92 @@
+.cr-currency-converter-widget {
+  width: 100%;
+  position: relative;
+}
+.cr-currency-converter-widget > input{
+  width: 65% !important;
+  height: 40px;
+  float: left;
+  font-size: 18px !important;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.cr-currency-converter-widget > .btn-currencies {
+  width: 35%;
+  height: 40px;
+  background-color: #cecece;
+  color: #616161;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  margin: 0 0 10px 0 !important;
+  display: block;
+}
+.cr-currency-converter-widget > .btn-currencies > span {
+  z-index: 1000000;
+}
+
+.cr-currency-converter-widget > .btn-currencies:hover {
+  background-color: #b1b1b1;
+}
+.cr-currency-converter-widget > ul{
+  background: #FFF;
+  border-radius: 5px;
+  right: 0;
+  list-style: none;
+  position: absolute;
+  margin: -45px 6px 0 0;
+  border: 1px solid #d6d6d6;
+  width: 230px;
+  z-index: 10000;
+  display: none;
+  height: 300px;
+  overflow-y: scroll;
+}
+.show {display:block !important; }
+.cr-currency-converter-widget > ul > li a{
+  height: 41px !important;
+  display: block;
+  padding: 10px;
+}
+.cr-currency-converter-widget > ul > li a:hover{
+  background-color: #002D62;
+  color: #FFF;
+}
+.cr-currency-converter-widget > ul > li.selected{
+  background-color: #002D62;
+  color: #FFF;
+}
+.cr-currency-converter-widget > ul > li.selected a{
+  color: #FFF;
+}
+
+
+.cr-currency-converter-widget .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.cr-currency-converter-widget .clear {
+  clear: both;
+}
+.cr-currency-converter-widget .text-center {
+  text-align: center;
+  display: block;
+}
+.cr-currency-converter-widget .currency-symbol{
+  margin: 3px 0 0 0;
+  display: inline-block;
+}
